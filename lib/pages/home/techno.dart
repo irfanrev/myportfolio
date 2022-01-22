@@ -13,26 +13,52 @@ class Techno extends StatelessWidget {
       child: Column(
         children: [
           Text(
-            'Some of the technologies I use to create mobile apps',
-            style: GoogleFonts.poppins(fontSize: 28),
+            'Some of the technologies I use',
+            style:
+                GoogleFonts.poppins(fontSize: 30, fontWeight: FontWeight.w500),
+            textAlign: TextAlign.center,
           ),
           SizedBox(
-            height: 25,
+            height: 35,
           ),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               Image.asset(
-                'assets/flutter-logo.svg',
-                height: 70,
+                'assets/flutter.png',
+                height: 100,
               ),
               Image.asset(
                 'assets/react.png',
-                height: 70,
+                height: 100,
               ),
               Image.asset(
                 'assets/kotlin.png',
-                height: 70,
+                height: 100,
+              ),
+              Image.asset(
+                'assets/laravel.png',
+                height: 100,
+              ),
+            ],
+          ),
+          SizedBox(
+            height: 20,
+          ),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            children: [
+              Image.asset(
+                'assets/firebase.png',
+                height: 100,
+              ),
+              Image.asset(
+                'assets/supabase.png',
+                height: 100,
+              ),
+              Image.asset(
+                'assets/mongo.png',
+                height: 100,
               ),
             ],
           )

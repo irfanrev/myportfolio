@@ -31,7 +31,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             CardRating(),
             SizedBox(
-              height: 30,
+              height: 60,
             ),
             Techno(),
             SizedBox(
