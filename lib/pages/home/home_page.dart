@@ -5,6 +5,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:myporfolio/pages/home/card_rating.dart';
 import 'package:myporfolio/pages/home/jumbotron_widget.dart';
 import 'package:myporfolio/pages/home/nav.dart';
+import 'package:myporfolio/pages/home/techno.dart';
 import 'package:myporfolio/utils/navbar.dart';
 
 class MyHomePage extends StatefulWidget {
@@ -29,6 +30,10 @@ class _MyHomePageState extends State<MyHomePage> {
               height: 20,
             ),
             CardRating(),
+            SizedBox(
+              height: 30,
+            ),
+            Techno(),
             SizedBox(
               height: 200,
             ),
