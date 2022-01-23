@@ -3,8 +3,10 @@ import 'dart:html';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:myporfolio/pages/home/card_rating.dart';
+import 'package:myporfolio/pages/home/hireme.dart';
 import 'package:myporfolio/pages/home/jumbotron_widget.dart';
 import 'package:myporfolio/pages/home/nav.dart';
+import 'package:myporfolio/pages/home/project_show.dart';
 import 'package:myporfolio/pages/home/techno.dart';
 import 'package:myporfolio/utils/navbar.dart';
 
@@ -31,9 +33,13 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             CardRating(),
             SizedBox(
-              height: 60,
+              height: 70,
             ),
             Techno(),
+            SizedBox(
+              height: 60,
+            ),
+            HireMe(),
             SizedBox(
               height: 200,
             ),
