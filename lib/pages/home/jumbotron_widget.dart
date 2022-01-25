@@ -110,14 +110,16 @@ class _JumbotronState extends State<Jumbotron> {
                     Row(
                       children: [
                         InkWell(
+                          focusColor: Colors.teal[400],
+                          hoverColor: Colors.teal[900],
+                          borderRadius: BorderRadius.circular(10),
                           onTap: () {},
                           child: Container(
                             width: 150,
                             height: 55,
                             decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(10),
-                              color: Colors.teal[400],
-                            ),
+                                borderRadius: BorderRadius.circular(10),
+                                color: Colors.teal[400]),
                             child: Row(
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
