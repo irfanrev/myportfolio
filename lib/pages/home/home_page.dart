@@ -2,6 +2,7 @@ import 'dart:html';
 
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:myporfolio/pages/home/card_interes.dart';
 import 'package:myporfolio/pages/home/card_rating.dart';
 import 'package:myporfolio/pages/home/hireme.dart';
 import 'package:myporfolio/pages/home/jumbotron_widget.dart';
@@ -40,6 +41,10 @@ class _MyHomePageState extends State<MyHomePage> {
               height: 60,
             ),
             HireMe(),
+            SizedBox(
+              height: 120,
+            ),
+            CardInteres(),
             SizedBox(
               height: 200,
             ),
